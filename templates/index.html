@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>3D Digital Twin Platform for Smart Cities</title>
+    <!-- Include Cesium CSS -->
+    <link rel="stylesheet" href="{{ url_for('static', filename='Cesium/Widgets/widgets.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <!-- Include Cesium JS -->
+    <script src="{{ url_for('static', filename='Cesium/Cesium.js') }}"></script>
+    <!-- Include External JS File -->
+    <script src="{{ url_for('static', filename='script.js') }}" defer></script>
+</head>
+<body>
+    <!-- Container for Cesium Viewer -->
+    <div id="cesiumContainer"></div>
+
+    <!-- Pass Cesium Ion Token to JavaScript -->
+    <script>
+        const cesiumToken = '{{ cesium_token }}';
+    </script>
+</body>
+</html>
