@@ -1,4 +1,4 @@
-# 🏙️ Digital Twin System – Smart City Visualization
+# Digital Twin System – Smart City Visualization
 
 A real-time 3D digital twin platform that simulates urban infrastructure using **CesiumJS** and **Flask**. Visualize traffic congestion, energy consumption, air quality index (AQI), and waste management data overlaid on a photorealistic 3D city model.
 
@@ -9,7 +9,7 @@ A real-time 3D digital twin platform that simulates urban infrastructure using *
 
 ---
 
-## ✨ Features
+## Features
 
 - **3D City Rendering** — Photorealistic 3D buildings using OpenStreetMap (OSM) data via Cesium Ion
 - **Traffic Heatmaps** — Congestion levels visualized as color-coded ellipses with glow effects for high-traffic zones
@@ -18,7 +18,7 @@ A real-time 3D digital twin platform that simulates urban infrastructure using *
 - **Waste Bin Monitoring** — Point markers showing bin fill status (Full / Empty)
 - **Fly-to Navigation** — Automated camera transitions to target city areas
 
-## 🏗️ Architecture
+## Architecture
 
 ```
 digital-twin-3d/
@@ -34,7 +34,7 @@ digital-twin-3d/
 └── schema.sql              # Database schema for sensor data
 ```
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 | Layer | Technology |
 |---|---|
@@ -44,7 +44,7 @@ digital-twin-3d/
 | Frontend | HTML5, CSS3, JavaScript (ES6) |
 | Environment | python-dotenv |
 
-## 🚀 Getting Started
+## Getting Started
 
 ### Prerequisites
 - Python 3.9+
@@ -78,7 +78,7 @@ python app.py
 
 Open `http://localhost:5000` — the viewer will fly to New York City and render all data layers.
 
-## 📊 Data Layers
+## Data Layers
 
 | Layer | Visualization | Example Data Points |
 |---|---|---|
@@ -87,13 +87,13 @@ Open `http://localhost:5000` — the viewer will fly to New York City and render
 | AQI | Green/Red ellipses | Brooklyn AQI 120 (Poor) |
 | Waste | Point markers (green/red) | Bin Full / Empty status |
 
-## 🔮 Future Scope
+## Future Scope
 
 - Real-time data ingestion via IoT sensors and WebSocket streams
 - Database-backed sensor storage (see `schema.sql`)
 - Time-series playback for historical analysis
 - Multi-city support with city selector
 
-## 📄 License
+## License
 
 This project is for educational and demonstration purposes.
